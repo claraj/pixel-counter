@@ -36,7 +36,7 @@
             this.pixelsLabel.AutoSize = true;
             this.pixelsLabel.Location = new System.Drawing.Point(0, 0);
             this.pixelsLabel.Name = "pixelsLabel";
-            this.pixelsLabel.Size = new System.Drawing.Size(102, 15);
+            this.pixelsLabel.Size = new System.Drawing.Size(88, 13);
             this.pixelsLabel.TabIndex = 0;
             this.pixelsLabel.Text = "Pixel in window =";
             // 
@@ -47,7 +47,7 @@
             this.ClientSize = new System.Drawing.Size(284, 261);
             this.Controls.Add(this.pixelsLabel);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Pixels in Window";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.Resize += new System.EventHandler(this.Form1_Resize);
             this.ResumeLayout(false);
